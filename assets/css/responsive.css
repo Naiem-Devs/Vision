@@ -1,0 +1,269 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .product_wrp {
+        width: calc(100% - 60px);
+    }
+    .hero_text {
+        margin-left: 40px;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .product_wrp {
+        width: calc(100% - 60px);
+    }
+    .hero_text {
+        margin-left: 20px;
+    }
+    .timeline_blk {
+        max-width: 350px;
+    }
+    
+    .timeline_content {
+        width: 370px;
+    }
+    .hero_text h2 {
+        font-size: 28px;
+    }
+    
+    .hero_text h1 {
+        font-size: 80px;
+    }
+    
+    .hero__img {
+        max-width: 320px;
+    }
+    
+    .rd-bg {
+        margin-top: -210px;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .product_wrp {
+        width: calc(100% - 60px);
+    }
+    .hero_text {
+        margin-left: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .timeline_blk {
+        max-width: 282px;
+    }
+    
+    .timeline_content {
+        width: 305px;
+    }
+    .hero_text h2 {
+        font-size: 28px;
+    }
+    
+    .hero_text h1 {
+        font-size: 80px;
+    }
+    
+    .hero__img {
+        max-width: 250px;
+        float: unset;
+        margin: auto;
+        margin-bottom: 36px;
+    }
+    
+    .rd-bg {
+        margin-top: -210px;
+    }
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero_text p {
+        margin: 24px auto 35px;
+    }
+    
+    .bar.d-block.d-lg-none {}
+    
+    .logo-area {}
+    
+    .text_bg {
+        font-size: 60px;
+        top: 50px;
+    }
+    
+    .sec_title h1 {
+        font-size: 50px;
+    }
+    
+    .join-Area .sec_title {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .join_link {
+        margin: auto;
+        float: initial;
+        margin-top: 20px;
+    }
+    .footer-content {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .newLetter_area {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    
+    .mail_box {
+        margin: auto;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .product_wrp {
+    width: 95%;
+    margin-inline: auto;
+    }
+
+.product_blk {
+    max-width: 350px;
+    margin: auto;
+}
+    .hero_text {
+        margin-left: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .timeline_blk {
+        max-width: 330px;
+        margin: auto;
+        margin-bottom: 48px;
+        text-align: center;
+    }
+
+.timeline_blk.left {
+    position: unset;
+}
+    
+    .timeline_content {
+        width: 100%;
+    }
+    .hero_text h2 {
+        font-size: 18px;
+    }
+    
+    .hero_text h1 {
+        font-size: 50px;
+    }
+    
+    .hero__img {
+        max-width: 165px;
+        float: unset;
+        margin: auto;
+        margin-bottom: 36px;
+    }
+    
+    .rd-bg {
+        margin-top: -210px;
+    }
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero_text p {
+        margin: 24px auto 35px;
+        font-size: 15px;
+    }
+    
+
+    
+    .text_bg {
+        font-size: 44px;
+        top: 66px;
+    }
+    
+    .sec_title h1 {
+        font-size: 40px;
+    }
+    
+    .join-Area .sec_title {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .join_link {
+        margin: auto;
+        float: initial;
+        margin-top: 20px;
+    }
+    .footer-content {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .newLetter_area {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    
+    .mail_box {
+        margin: auto;
+    }
+    .timeline-wrp ul {width: 100px;display: none;}
+
+.timeline-wrp {
+    flex-direction: column;
+}
+
+.thm_btn,.border_btn {
+    padding: 14px 30px;
+}
+
+.hero_text a {
+    margin-bottom: 12px;
+}
+
+.Ellipse1 {
+    top: 39px;
+}
+
+.Total-Supply h3 {
+    font-size: 20px;
+}
+.header-area {
+    padding-top: 15px;
+}
+
+.hero-area {
+    padding-top: 128px;
+    padding-bottom: 60px;
+}
+.owl-next {
+    bottom: -70px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.chart svg {
+    width: 100%;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
